@@ -9,14 +9,15 @@
 .q2__content__text{
   font-size: 18px;
   line-height: 22px;
-  word-break: keep-all;
+  text-align: justify;
 }
 
 
-.q2__contents {
+.q2__contents_box {
   width:940px;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
   background-color: #eff3f4;
 }
 

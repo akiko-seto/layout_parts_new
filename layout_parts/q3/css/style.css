@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+table th,td{
+  padding: 10px;
+  border: 1px solid #dedede;
+  text-align: center;
+}
+
+table th{
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  color: #fff;
+}
+
+tr:last-child{
+  border-top: dashed 2px #000 ;
+  }
+
+tr:first-child{
+  border-top: none;
+}
+
+tr:nth-child(2),tr:nth-child(4){
+  background-color: #ecf1f2;
+}
