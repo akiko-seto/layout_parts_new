@@ -9,7 +9,7 @@
 .q2__content__text{
   font-size: 18px;
   line-height: 22px;
-  text-align: justify;
+  word-break: break-all;
 }
 
 
@@ -21,13 +21,13 @@
   background-color: #eff3f4;
 }
 
-.image_1{
+.image_left{
   margin-right: 20px;
   margin-bottom: 10px;
   float:left ;
 }
 
-.image_2{
+.image_right{
   margin-left: 20px;
   margin-bottom: 10px;
   float: right;

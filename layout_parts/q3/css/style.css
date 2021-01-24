@@ -2,34 +2,30 @@
 
 
 
-table{
+.q3__contents{
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   table-layout: fixed;
 }
 
-table th,td{
+.q3__contents th, .q3__contents td{
   padding: 10px;
   border: 1px solid #dedede;
   text-align: center;
 }
 
-table th{
+.q3__contents th{
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
   color: #fff;
 }
 
-tr:last-child{
-  border-top: dashed 2px #000 ;
-  }
-
-tr:first-child{
-  border-top: none;
-}
-
-tr:nth-child(2),tr:nth-child(4){
+.q3__contents tr:nth-child(even) {
   background-color: #ecf1f2;
 }
+
+.q3__contents  tbody tr:last-child{
+  border-top: dashed 2px #000 ;
+  }

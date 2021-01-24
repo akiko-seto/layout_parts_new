@@ -27,5 +27,6 @@
   background-color: #eaf4ff;
 }
 
-.is-first{
+.q1__contents_box:first-child {
   margin-left: 0;
+}

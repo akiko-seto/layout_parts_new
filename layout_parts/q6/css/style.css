@@ -19,7 +19,6 @@
   
 }
 
-
 .q6_text_box {
   display: table-cell;
   background-color: #fff;
@@ -41,13 +40,14 @@
   margin-bottom: 20px;
 }
 
-.a_table {
-  text-align: center;
+.q6_table {
+  display: table;
   display: table-cell;
+  text-align: center;
   vertical-align: middle;
 }
 
-.a_table p {
+.q6_table p {
   display: inline-block ;
   padding: 10px ;
   background-color: #fff;
@@ -72,8 +72,11 @@
 
 .sta_in p {
   position: absolute ;
-  margin-top: 30% ;
-  margin-left: 30% ;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   
 }
 
