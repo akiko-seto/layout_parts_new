@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.q6_1_box {
+.q6_textcenter_box {
   text-align: center;
 }
 
@@ -16,61 +16,48 @@
   width: 70px;
   padding: 10px;
   background-color: #e6f2ff
-  
 }
 
-.q6_text_box {
-  display: table-cell;
-  background-color: #fff;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.q6_2_box {
-  text-align: center;
-}
-
-.q6_2_inner {
+.innerbox {
   display:inline-block;
 
 }
 
-.mar{
+.head_margin{
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.q6_table {
+.tablebox {
   display: table;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.q6_table p {
+.tablebox p {
   display: inline-block ;
   padding: 10px ;
   background-color: #fff;
 }
 
-
-.a_flex {
+.flexbox {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.a_flex p {
+.flexbox p {
   padding: 10px;
   background-color: #fff;
 }
 
-.sta_in {
+.stable_inner {
   position: relative;
   
 }
 
-.sta_in p {
+.stable_inner p {
   position: absolute ;
   top: 0;
   bottom: 0;
@@ -80,11 +67,11 @@
   
 }
 
-.fle_in{
+.flexible_inner{
   position: relative;
 }
 
-.fle_in p {
+.flexible_inner p {
   position: absolute;
   top: 50% ;
   left: 50% ;

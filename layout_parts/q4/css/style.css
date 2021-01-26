@@ -24,32 +24,32 @@
   padding: 20px;
 }
 
-.is_pi {
+.is_pink {
   width: 60px;
   background-color: #fdc8b8;
 }
 
-.is_pu{
+.is_purple{
   background-color: #e0abd9;
 
 }
 
-.is_b{
+.is_blue{
   width: 60px;
   background-color: #b6d8ed;
 
 }
 
-.is_y{
+.is_yellow{
   background-color: #e5d32e;
 }
 
-.is_r{
+.is_red{
   background-color: #ec8f9a;
 
 }
 
-.is_g{
+.is_green{
   width: 460px;
   background-color: #8fdcad;
 }

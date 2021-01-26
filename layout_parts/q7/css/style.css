@@ -9,18 +9,18 @@
   clear: both;
 }
 
-.a,b:first-child{
+.float_box,.q7_float_left:first-child{
   margin-left: 0;
 }
 
-.b{
+.q7_float_text{
   float: left;
   padding: 20px;
   width: 225px;
   box-sizing: border-box;
 }
 
-.c{
+.q7_float_text:nth-child(2) {
   margin-left: 50px;
 }
 
@@ -34,6 +34,7 @@
 
 .dtable_c{
   display: table-cell;
+  vertical-align: middle;
 
 }
 
@@ -50,19 +51,56 @@
 
 /* Q7-3 inline-blockでの横並び */
 
-.item:first-child{
-  margin-left: 0;
-  width: 225px;
-}
-
-.item{
+.q7_inline{
   display: inline-block;
   vertical-align: middle;
   width: 225px;
+  box-sizing: border-box;
+  margin-left: 0;
+}
+
+.q7_inline:nth-child(2){
+  margin-left: 45px;
+}
+
+/* Q7-4 flexでの横並び */
+
+.q7_flex_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7_flex_box{
+  vertical-align: middle;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* Q7-5 inline-blockとmarginでの横並び */
+
+.q7_margin_box{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.q7_Fixed{
+  display: inline-block;
+  width: 300px;
+}
+
+.q7_variable{
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 
 
 
-/* .item:nth-child(2){
-  margin-left: 50px;
-} */
+
+
+
+
+
