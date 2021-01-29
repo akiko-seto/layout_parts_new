@@ -87,6 +87,7 @@
 .q7_Fixed{
   display: inline-block;
   width: 300px;
+  box-sizing: border-box;
 }
 
 .q7_variable{
