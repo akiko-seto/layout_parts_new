@@ -10,24 +10,19 @@
 }
 
 .q9_word_main::before{
+  content: "";
   position: absolute;
   border: 20px solid transparent;
   bottom: -45px;
   left: 30px;
   border-top-color: #222;
-  content: "";
 }
 
 .q9_word_main::after{
+  content: "";
   position: absolute;
   border: 20px solid transparent;
   bottom: -38px;
   left: 30px;
   border-top-color: #fff;
-  content: "";
 }
-
-/* .p q9_word{
-  font-size: 16px;
-  line-height: 16px;
-} */

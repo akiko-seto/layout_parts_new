@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /* Q7-1 floatでの横並び */
 
 .clearfix:after {
@@ -9,11 +8,11 @@
   clear: both;
 }
 
-.float_box,.q7_float_left:first-child{
+.float_box,.q7_float_left:first-child {
   margin-left: 0;
 }
 
-.q7_float_text{
+.q7_float_text {
   float: left;
   padding: 20px;
   width: 225px;
@@ -26,32 +25,32 @@
 
 /* Q7-2 tableでの横並び */
 
-.dtable{
+.dtable {
   display: table;
   table-layout: fixed;
   
 }
 
-.dtable_c{
+.dtable_cell {
   display: table-cell;
   vertical-align: middle;
 
 }
 
-.dtable_c:first-child{
+.dtable_cell:first-child {
   margin-left: 0;
   width: 225px;
 }
 
 
-.dtable_c:nth-child(2){
+.dtable_cell:nth-child(2) {
   padding-left: 50px;
   width: 225px;
 }
 
 /* Q7-3 inline-blockでの横並び */
 
-.q7_inline{
+.q7_inline {
   display: inline-block;
   vertical-align: middle;
   width: 225px;
@@ -59,19 +58,19 @@
   margin-left: 0;
 }
 
-.q7_inline:nth-child(2){
+.q7_inline:nth-child(2) {
   margin-left: 45px;
 }
 
 /* Q7-4 flexでの横並び */
 
-.q7_flex_container{
+.q7_flex_container {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7_flex_box{
+.q7_flex_box {
   vertical-align: middle;
   width: 225px;
   box-sizing: border-box;
@@ -79,23 +78,26 @@
 
 /* Q7-5 inline-blockとmarginでの横並び */
 
-.q7_margin_box{
-  display: inline-block;
-  vertical-align: top;
+.q7_margin_box {
+  font-size: 0;
 }
 
-.q7_Fixed{
+.q7_Fixed {
   display: inline-block;
   width: 300px;
   box-sizing: border-box;
+  vertical-align: top;
+  font-size: 16px;
 }
 
-.q7_variable{
+.q7_variable {
   display: inline-block;
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: top;
 }
 
 
