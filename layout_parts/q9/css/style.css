@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.q9_word_main{
+.q9_word_main {
   position: relative;
   width: 500px;
   padding: 20px;
@@ -9,20 +9,20 @@
   border-radius: 30px;
 }
 
-.q9_word_main::before{
+
+.q9_word_main::before, .q9_word_main::after {
   content: "";
   position: absolute;
   border: 20px solid transparent;
-  bottom: -45px;
   left: 30px;
+}
+
+.q9_word_main::before {
+  bottom: -45px;
   border-top-color: #222;
 }
 
-.q9_word_main::after{
-  content: "";
-  position: absolute;
-  border: 20px solid transparent;
+.q9_word_main::after {
   bottom: -38px;
-  left: 30px;
   border-top-color: #fff;
 }

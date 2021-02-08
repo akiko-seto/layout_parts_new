@@ -1,27 +1,36 @@
 @charset "UTF-8";
 
 .q8_wrapper {
+  position: relative;
   overflow: hidden;
   margin: 0 auto;
   width: 500px;
   height: 333px;
   cursor: pointer;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
-.inner {
+/* .inner {
   position: relative;
   transition: 0.5s all;
 
+} */
+
+  .q8_wrapper img{
+  vertical-align: bottom;
 }
 
 .car {
   transition: 0.5s all;
 }
 
-.inner:hover .car {
+.q8_wrapper:hover .car {
   transform: scale(1.5);
 }
+
+/* .inner:hover .car {
+  transform: scale(1.5);
+} */
 
 .q8_text {
   position: absolute;
@@ -33,9 +42,13 @@
   transition: 0.5s all;
 }
 
-.inner:hover .q8_text {
+.q8_wrapper:hover .q8_text {
   bottom: 0;
 }
+/* .inner:hover .q8_text {
+  bottom: 0;
+} */
+
 
 .q8_text_inner {
 position: absolute;
