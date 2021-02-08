@@ -16,8 +16,8 @@
 
 } */
 
-  .q8_wrapper img{
-  vertical-align: bottom;
+  .q8_wrapper img {
+    display: block;
 }
 
 .car {
