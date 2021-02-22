@@ -12,10 +12,11 @@
   float: left;
   width: 225px;
   box-sizing: border-box;
+  margin-left: 50px;
 }
 
-.q7_float_text:not(:first-child) {
-  margin-left: 50px;
+.q7_float_text:first-child {
+  margin-left: 0;
 }
 
 /* Q7-2 tableでの横並び */
@@ -29,10 +30,11 @@
   display: table-cell;
   vertical-align: middle;
   width: 225px;
+  padding-left: 50px;
 }
 
-.dtable_cell:not(:first-child) {
-  padding-left: 50px;
+.dtable_cell:first-child {
+  padding-left: 0;
 }
 
 /* Q7-3 inline-blockでの横並び */
@@ -55,15 +57,15 @@
   width: 225px;
   box-sizing: border-box;
   font-size: 16px;
+  margin-left: 50px;
 }
 
 /* .q7_inline:nth-child(2) {
   margin-left: 45px;
 } */
 
-.q7_inline:not(:first-child) {
-  margin-left: 50px;
-  font-size: 16px;
+.q7_inline:first-child {
+  margin-left: 0;
 }
 
 /* Q7-4 flexでの横並び */

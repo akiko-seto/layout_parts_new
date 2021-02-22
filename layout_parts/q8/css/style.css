@@ -17,7 +17,7 @@
 } */
 
   .q8_wrapper img {
-    display: block;
+    display: inline-block;
 }
 
 .car {
